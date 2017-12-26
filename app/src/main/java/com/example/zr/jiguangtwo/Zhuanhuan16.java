@@ -19,7 +19,7 @@ public class Zhuanhuan16 {
             sb.append(chars[bit]);
             bit = bs[i] & 0x0f;
             sb.append(chars[bit]);
-            sb.append(' ');
+//            sb.append(' ');
         }
         return sb.toString().trim();
     }
